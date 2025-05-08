@@ -1,0 +1,149 @@
+[
+  {
+    "delivery_note_id": "GH-CT20240507-001",
+    "reference_purchase_order": "PO-20240501-002",
+    "delivery_date": "2025-05-07T08:30:00",
+    "delivery_status": "delivered",
+    "project": {
+      "project_id": "DA-CT01",
+      "project_name": "Xây dựng Trung tâm Hành chính Q9",
+      "site_location": "Đường 123, Phường Phú Hữu, TP. Thủ Đức",
+      "contractor_name": "Công ty TNHH Xây dựng ABC"
+    },
+    "delivery_zone": "Tầng 3 - Khu A",
+    "delivered_by": "Nguyễn Văn Tài",
+    "vehicle_plate": "51C-123.45",
+    "receiver": {
+      "receiver_name": "Trần Đức Minh",
+      "receiver_role": "Tư vấn giám sát",
+      "phone": "0911223344",
+      "department": "TVGS Công ty Delta"
+    },
+    "materials": [
+      {
+        "material_code": "VT01",
+        "name": "Thép phi 16",
+        "specification": "CB300-V, dài 11.7m",
+        "unit": "Cây",
+        "quantity_delivered": 100.0,
+        "quantity_received": 98.0,
+        "remarks": "2 cây cong vênh",
+        "batch_number": "BATCH-THP-0425"
+      },
+      {
+        "material_code": "VT02",
+        "name": "Xi măng Holcim",
+        "specification": "50kg/bao",
+        "unit": "Bao",
+        "quantity_delivered": 200.0,
+        "quantity_received": 200.0,
+        "remarks": null,
+        "batch_number": null
+      }
+    ],
+    "created_at": "2025-05-07T09:00:00",
+    "confirmed_at": "2025-05-07T10:00:00",
+    "receiver_signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...",
+    "contractor_signature": "https://example.com/signatures/gh-ct20240507-001/contractor.png",
+    "notes": "Giao đúng tiến độ theo yêu cầu",
+    "total_quantity": 300.0
+  },
+  {
+    "delivery_note_id": "GH-CT20240508-002",
+    "reference_purchase_order": null,
+    "delivery_date": "2025-05-08T09:15:00",
+    "delivery_status": "pending",
+    "project": {
+      "project_id": "DA-CT01",
+      "project_name": "Xây dựng Trung tâm Hành chính Q9",
+      "site_location": "Đường 123, Phường Phú Hữu, TP. Thủ Đức",
+      "contractor_name": "Công ty TNHH Xây dựng ABC"
+    },
+    "delivery_zone": "Tầng 4 - Khu B",
+    "delivered_by": "Phạm Văn Bình",
+    "vehicle_plate": "51C-456.78",
+    "receiver": {
+      "receiver_name": "Lê Thanh Hải",
+      "receiver_role": "Chỉ huy trưởng",
+      "phone": "0977889900",
+      "department": "Ban quản lý dự án"
+    },
+    "materials": [
+      {
+        "material_code": "VT03",
+        "name": "Gạch ốp lát 60x60",
+        "specification": "Gạch Granite cao cấp",
+        "unit": "Thùng",
+        "quantity_delivered": 50.0,
+        "quantity_received": null,
+        "remarks": null,
+        "batch_number": "GL-60-2024-0501"
+      },
+      {
+        "material_code": "VT04",
+        "name": "Keo dán gạch",
+        "specification": null,
+        "unit": "Bao",
+        "quantity_delivered": 80.0,
+        "quantity_received": null,
+        "remarks": null,
+        "batch_number": null
+      }
+    ],
+    "created_at": "2025-05-08T08:30:00",
+    "confirmed_at": null,
+    "receiver_signature": null,
+    "contractor_signature": null,
+    "notes": null,
+    "total_quantity": 130.0
+  },
+  {
+    "delivery_note_id": "GH-CT20240510-003",
+    "reference_purchase_order": "PO-20240505-003",
+    "delivery_date": "2025-05-10T14:00:00",
+    "delivery_status": "partially_delivered",
+    "project": {
+      "project_id": "DA-CT02",
+      "project_name": "Khu dân cư Vinhomes",
+      "site_location": "Đường Nguyễn Xiển, Quận 9, TP.HCM",
+      "contractor_name": "Công ty CP Xây dựng XYZ"
+    },
+    "delivery_zone": null,
+    "delivered_by": "Trần Văn Cường",
+    "vehicle_plate": "51D-789.12",
+    "receiver": {
+      "receiver_name": "Nguyễn Minh Tuấn",
+      "receiver_role": "Đội trưởng thi công",
+      "phone": "0966778899",
+      "department": null
+    },
+    "materials": [
+      {
+        "material_code": "VT05",
+        "name": "Ống nước PVC",
+        "specification": "Phi 90, dài 4m",
+        "unit": "Cây",
+        "quantity_delivered": 150.0,
+        "quantity_received": 130.0,
+        "remarks": "20 cây bị nứt",
+        "batch_number": null
+      },
+      {
+        "material_code": "VT06",
+        "name": "Keo dán ống nước",
+        "specification": "Lon 250ml",
+        "unit": "Lon",
+        "quantity_delivered": 30.0,
+        "quantity_received": 30.0,
+        "remarks": null,
+        "batch_number": null
+      }
+    ],
+    "created_at": "2025-05-10T13:45:00",
+    "confirmed_at": "2025-05-10T15:30:00",
+    "receiver_signature": null,
+    "contractor_signature": null,
+    "notes": "Giao thiếu do khó khăn vật tư",
+    "total_quantity": 180.0
+  }
+]
